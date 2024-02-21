@@ -1,0 +1,71 @@
+.login-page {
+     display: flex !important  ;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background: #fafdff 0% 0% no-repeat padding-box;
+   }
+   
+   .login-form {
+     max-width: 480px;
+     padding: 60px;
+   }
+
+   .image-display img {
+     max-width: 100%;
+     height: auto;
+   }
+
+   .welcome-text {
+     margin-top: auto; 
+   }
+   .card-content-size {
+     width: 80%;
+     height: 500px;
+     margin-right: 10%;
+     box-shadow: 0px 0px 38px #2733460f;
+   }
+   
+   .card-content-size .ant-card-body {
+     margin-top: 34px;
+   }
+   
+   @media screen and (max-width: 1023px) {
+     .login-page {
+       flex-direction: column !important;
+       box-shadow: none;
+     }
+     .illustration-wrapper {
+       max-width: 100%;
+       min-height: auto;
+     }
+     #login-form {
+       max-width: 100%;
+     }
+   }
+   
+   .image-display {
+     text-align: center;
+     width: 300px;
+   }
+   
+   .image-display h3 {
+     margin-top: 10px;
+     color: #2b3134;
+   }
+   @media (max-width: 629px) {
+     .image-display {
+       display: none;
+     }
+     .login-page {
+       background: white;
+     }
+   }
+   
+   @media (max-width: 1025px) {
+     .image-display {
+       flex-direction: column;
+       display: none;
+     }
+   }
+   
